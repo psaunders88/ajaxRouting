@@ -1,0 +1,7 @@
+parameters:
+#    p_saunders_test.example.class: PSaunders\Bundle\TestBundle\Example
+
+services:
+#    p_saunders_test.example:
+#        class: %p_saunders_test.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

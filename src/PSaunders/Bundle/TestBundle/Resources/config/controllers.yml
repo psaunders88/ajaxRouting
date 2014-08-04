@@ -1,0 +1,8 @@
+parameters:
+    p_saunders_test.controller_default: PSaunders\Bundle\TestBundle\Controller\DefaultController
+    
+services:
+    p_saunders_test.controller_default:
+        class: %p_saunders_test.controller_default%
+        arguments:
+            - @templating

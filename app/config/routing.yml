@@ -1,0 +1,4 @@
+p_saunders_test:
+    resource: "@PSaundersTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
