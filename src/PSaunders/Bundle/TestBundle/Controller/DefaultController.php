@@ -11,18 +11,11 @@ class DefaultController extends AbstractController
     /**
      * Index
      * 
-     * @param Request $request
-     * 
      * @return Response
      */
-    public function indexAction(Request $request)
+    public function indexAction()
     {
-        return $this->render(
-            'PSaundersTestBundle:Default:index.html.twig',
-            [
-                'name' => $request->get('name')
-            ]
-        );
+        return $this->render('PSaundersTestBundle:Default:index.html.twig');
     }
     
     /**
